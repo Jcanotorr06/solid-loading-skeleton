@@ -1,29 +1,18 @@
-import type { Component } from 'solid-js'
-import logo from './logo.svg'
-import styles from './App.module.css'
-import { Hello } from '../src'
+import type { Component } from "solid-js"
+import Skeleton from "../src/Skeleton"
+import SkeletonTheme, { useSkeletonTheme } from "../src/SkeletonTheme"
+import "../src/skeleton.css"
 
 const App: Component = () => {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <h1>
-          <Hello></Hello>
-        </h1>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
-    </div>
+    <SkeletonTheme baseColor="#202020" highlightColor="#F44" direction="alternate">
+      <div>
+        <Skeleton count={3} />
+      </div>
+      <div>
+        <Skeleton height="150px" width="150px" />
+      </div>
+    </SkeletonTheme>
   )
 }
 
