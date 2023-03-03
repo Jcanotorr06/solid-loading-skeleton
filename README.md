@@ -13,11 +13,11 @@ Light and customizable Solid component to create skeleton screens that automatic
 Install it:
 
 ```bash
-npm i solid-marquee
+npm i solid-loading-skeleton
 # or
-yarn add solid-marquee
+yarn add solid-loading-skeleton
 # or
-pnpm add solid-marquee
+pnpm add solid-loading-skeleton
 ```
 
 ## Usage
