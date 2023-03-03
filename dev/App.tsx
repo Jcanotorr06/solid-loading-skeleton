@@ -1,6 +1,5 @@
 import type { Component } from "solid-js"
-import Skeleton from "../src/Skeleton"
-import SkeletonTheme, { useSkeletonTheme } from "../src/SkeletonTheme"
+import Skeleton, { SkeletonTheme } from "../src"
 import "../src/skeleton.css"
 
 const App: Component = () => {
