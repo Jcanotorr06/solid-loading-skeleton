@@ -15,4 +15,6 @@ const SkeletonTheme = (props: SkeletonThemeProps) => {
 
 export default SkeletonTheme
 
-export const useSkeletonTheme = () => useContext(SkeletonThemeContext)
+const useSkeletonTheme = () => useContext(SkeletonThemeContext)
+
+export { useSkeletonTheme, SkeletonTheme }

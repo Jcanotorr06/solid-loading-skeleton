@@ -92,3 +92,5 @@ const Skeleton: Component<SkeletonProps> = (props): JSXElement => {
 }
 
 export default Skeleton
+
+export { Skeleton }

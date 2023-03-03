@@ -1,7 +1,7 @@
-import { Accessor, createContext } from "solid-js"
+import { createContext } from "solid-js"
 import type { SkeletonStyleProps } from "./types"
 
-const SkeletonThemeContext = createContext<any>()
+const SkeletonThemeContext = createContext<SkeletonStyleProps>()
 
 export default SkeletonThemeContext
 export { SkeletonThemeContext }
