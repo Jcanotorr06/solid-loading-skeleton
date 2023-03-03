@@ -1,17 +1,17 @@
 {
   "version": "0.0.0",
-  "name": "{{name_of_lib}}",
-  "description": "{{desc_of_lib}}",
+  "name": "solid-loading-skeleton",
+  "description": "Light and customizable Solid component to create skeleton screens that automatically adapt to your app! ",
   "license": "MIT",
-  "author": "{{me}}",
+  "author": "Jcanotorr06",
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{me}}/{{name_of_lib}}.git"
+    "url": "git+https://github.com/Jcanotorr06/solid-loading-skeleton.git"
   },
-  "homepage": "https://github.com/{{me}}/{{name_of_lib}}#readme",
+  "homepage": "https://github.com/Jcanotorr06/solid-loading-skeleton#readme",
   "bugs": {
-    "url": "https://github.com/{{me}}/{{name_of_lib}}/issues"
+    "url": "https://github.com/Jcanotorr06/solid-loading-skeleton/issues"
   },
   "files": [
     "dist"
